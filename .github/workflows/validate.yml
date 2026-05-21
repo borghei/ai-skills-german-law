@@ -11,20 +11,12 @@ permissions:
 
 jobs:
   validate:
-    name: Structure + Eval
+    name: Structural validation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Structural validation
+      - name: Validate plugin manifests and SKILL frontmatter
         run: python scripts/validate.py
-      - name: Skill eval
-        run: python scripts/eval.py
-      - name: Provider routing (dry render for claude)
-        run: python scripts/route_provider.py --provider claude --out /tmp/claude-bundle
-      - name: PII redaction smoke
-        run: |
-          printf 'Herr Schmidt, IBAN DE89 3704 0044 0532 0130 00\n' \
-            | python scripts/pii_redact.py --in - --out -

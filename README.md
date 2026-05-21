@@ -132,7 +132,7 @@ We are unsentimental about trust. Here is what is verified today, what is in act
 
 ### Production-grade today
 
-- **Repo structure plus CI.** Every plugin manifest validates. CI runs `validate.py` and `eval.py` on every push, 110+ structural assertions, 15/15 skills passing.
+- **Repo structure plus CI.** Every plugin manifest validates. CI runs `validate.py` on every push to catch structural drift. Locally, `python scripts/eval.py` adds 110+ fact-pattern assertions across 15 skills (15/15 passing).
 - **Statute citations.** Every `§ X` links to the **authoritative public source**, [gesetze-im-internet.de](https://www.gesetze-im-internet.de) and [EUR-Lex](https://eur-lex.europa.eu). One click, verifiable.
 - **Methodology.** Gutachtenstil, Anspruchsgrundlagen-Reihenfolge, BGH/Beck-Zitierweise, no Präjudizienbindungs-Argumente, textbook-correct conventions, documented in [`CONVENTIONS.md`](./CONVENTIONS.md) and enforced by the reviewer sub-agent.
 - **Compliance scaffolding.** PII redaction ([`scripts/pii_redact.py`](./scripts/pii_redact.py)), gateway setup guide ([`references/gateway-setup.md`](./references/gateway-setup.md)), § 203 / DSGVO / KI-VO checklist ([`references/compliance-checklist.md`](./references/compliance-checklist.md)).

@@ -1,0 +1,8 @@
+{
+  "name": "verwaltungsrecht",
+  "version": "0.1.0",
+  "description": "Verwaltungsrecht (Fachanwaltschaft). Widerspruchsverfahren §§ 68 ff. VwGO, Anfechtungs- und Verpflichtungsklage §§ 42, 113 VwGO, einstweiliger Rechtsschutz § 80 VwGO, Vollstreckung VwVG.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

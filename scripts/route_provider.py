@@ -35,6 +35,16 @@ AREAS = [
     "dora",
     "dsa-dma",
     "csrd",
+    "insolvenzrecht",
+    "prozessrecht",
+    "it-recht",
+    "bankrecht",
+    "erbrecht",
+    "familienrecht",
+    "betreuungsrecht",
+    "gewerblicher-rechtsschutz",
+    "steuerrecht",
+    "verwaltungsrecht",
 ]
 
 CLAUDE_HEADER = """---

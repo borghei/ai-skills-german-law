@@ -1,0 +1,8 @@
+{
+  "name": "betreuungsrecht",
+  "version": "0.1.0",
+  "description": "Betreuungsrecht (Reform 2023, §§ 1814 ff. BGB). Betreuungsbestellung, Jahresbericht § 1863 BGB, Vermögensverzeichnis und Rechnungslegung §§ 1835, 1865 BGB, Genehmigungspflicht-Prüfung §§ 1848 ff., 1831, 1832 BGB.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

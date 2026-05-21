@@ -71,7 +71,57 @@
     {
       "name": "csrd",
       "source": "./csrd",
-      "description": "CSRD (Corporate Sustainability Reporting Directive, RL (EU) 2022/2464) und ESRS – Doppelte Wesentlichkeitsanalyse, Berichtspflichten, Prüfungspflichten, phasierte Anwendung 2024–2028, Vorbereitung für CSDDD."
+      "description": "CSRD (Corporate Sustainability Reporting Directive, RL (EU) 2022/2464) und ESRS. Doppelte Wesentlichkeitsanalyse, Berichtspflichten, Prüfungspflichten, phasierte Anwendung 2024 bis 2028, Vorbereitung für CSDDD."
+    },
+    {
+      "name": "insolvenzrecht",
+      "source": "./insolvenzrecht",
+      "description": "Insolvenzrecht und Sanierungsrahmen. Insolvenzantragspflicht § 15a InsO, StaRUG-Restrukturierungsplan, 13-Wochen-Liquiditätsplanung, positive Fortbestehensprognose, Zahlungsunfähigkeit und Überschuldung §§ 17, 19 InsO."
+    },
+    {
+      "name": "prozessrecht",
+      "source": "./prozessrecht",
+      "description": "Zivilprozessrecht. Klageschrift §§ 253 ff. ZPO, Streitgegenstand, Sachvortrag und Beweisantritt, Zuständigkeit, Rechtsmittel, Vollstreckung."
+    },
+    {
+      "name": "it-recht",
+      "source": "./it-recht",
+      "description": "IT-Recht (Fachanwaltschaft). IT-Vertragsgestaltung (SaaS, Outsourcing, Werkvertrag/Dienstvertrag), Softwarelizenzrecht, Open Source Compliance, KI- und DSGVO-Verzahnung, Cloud-AVV, EVB-IT."
+    },
+    {
+      "name": "bankrecht",
+      "source": "./bankrecht",
+      "description": "Bank- und Kapitalmarktrecht (Fachanwaltschaft). Kreditvertragsprüfung, Verbraucherdarlehen §§ 491 ff. BGB, Anlageberatung WpHG, MiFID II, Bauspar- und Hypothekenrecht."
+    },
+    {
+      "name": "erbrecht",
+      "source": "./erbrecht",
+      "description": "Erbrecht (Fachanwaltschaft). Testament und Erbvertrag §§ 1937 ff., 2274 ff. BGB, Pflichtteil §§ 2303 ff. BGB, Erbschein, Erbengemeinschaft, Erbschaftsteuer."
+    },
+    {
+      "name": "familienrecht",
+      "source": "./familienrecht",
+      "description": "Familienrecht (Fachanwaltschaft). Ehescheidung §§ 1564 ff. BGB, Zugewinnausgleich §§ 1372 ff. BGB, Unterhalt, Sorgerecht §§ 1626 ff. BGB, Umgangsrecht."
+    },
+    {
+      "name": "betreuungsrecht",
+      "source": "./betreuungsrecht",
+      "description": "Betreuungsrecht (Reform 2023, §§ 1814 ff. BGB). Betreuungsbestellung, Jahresbericht § 1863 BGB, Vermögensverzeichnis und Rechnungslegung §§ 1835, 1865 BGB, Genehmigungspflicht-Prüfung §§ 1848 ff. BGB."
+    },
+    {
+      "name": "gewerblicher-rechtsschutz",
+      "source": "./gewerblicher-rechtsschutz",
+      "description": "Gewerblicher Rechtsschutz (Fachanwaltschaft). Markenrecht MarkenG, Patentrecht PatG, Designrecht DesignG, UWG-Lauterkeitsrecht, Schutzrechtsverletzung und Abmahnung."
+    },
+    {
+      "name": "steuerrecht",
+      "source": "./steuerrecht",
+      "description": "Steuerrecht (Fachanwaltschaft). Abgabenordnung AO, Außenprüfung/Betriebsprüfung §§ 193 ff. AO, Einspruchsverfahren §§ 347 ff. AO, Finanzgerichtsverfahren FGO, Selbstanzeige § 371 AO."
+    },
+    {
+      "name": "verwaltungsrecht",
+      "source": "./verwaltungsrecht",
+      "description": "Verwaltungsrecht (Fachanwaltschaft). Widerspruchsverfahren §§ 68 ff. VwGO, Anfechtungs- und Verpflichtungsklage §§ 42, 113 VwGO, einstweiliger Rechtsschutz § 80 VwGO, Vollstreckung VwVG."
     }
   ]
 }

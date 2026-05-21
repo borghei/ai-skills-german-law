@@ -1,0 +1,8 @@
+{
+  "name": "bankrecht",
+  "version": "0.1.0",
+  "description": "Bank- und Kapitalmarktrecht (Fachanwaltschaft). Kreditvertragsprüfung, Verbraucherdarlehen §§ 491 ff. BGB, Anlageberatung WpHG, MiFID II, Bauspar-/Hypothekenrecht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

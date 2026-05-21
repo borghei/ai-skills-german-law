@@ -1,0 +1,8 @@
+{
+  "name": "erbrecht",
+  "version": "0.1.0",
+  "description": "Erbrecht (Fachanwaltschaft). Testament und Erbvertrag §§ 1937 ff., 2274 ff. BGB, Pflichtteil §§ 2303 ff. BGB, Erbschein, Erbengemeinschaft, Erbschaftsteuer.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

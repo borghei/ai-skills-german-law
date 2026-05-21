@@ -1,0 +1,8 @@
+{
+  "name": "gewerblicher-rechtsschutz",
+  "version": "0.1.0",
+  "description": "Gewerblicher Rechtsschutz (Fachanwaltschaft). Markenrecht MarkenG, Patentrecht PatG, Designrecht DesignG, Gebrauchsmuster GebrMG, UWG-Lauterkeitsrecht, Schutzrechtsverletzung und Abmahnung.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

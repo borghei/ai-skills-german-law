@@ -1,0 +1,52 @@
+{
+  "_comment": "MCP server config template for areas in AI-Skills-German-Law. Copy into <area>/.mcp.json and customize per area. MCP servers extend a skill with live tools: legal databases (Beck-Online, juris, openjur), court calendars, BGBl. lookup, etc. This file ships as documentation; per-area .mcp.json files are not currently shipped because no public MCP servers exist yet for Beck-Online or juris.",
+  "_documentation": "https://modelcontextprotocol.io/",
+
+  "mcpServers": {
+    "_example_beck_online": {
+      "_status": "placeholder - no public Beck-Online MCP server exists yet",
+      "command": "npx",
+      "args": ["-y", "@your-org/beck-online-mcp"],
+      "env": {
+        "BECK_ONLINE_API_KEY": "$BECK_ONLINE_API_KEY"
+      }
+    },
+
+    "_example_juris": {
+      "_status": "placeholder - no public juris MCP server exists yet",
+      "command": "npx",
+      "args": ["-y", "@your-org/juris-mcp"],
+      "env": {
+        "JURIS_USER": "$JURIS_USER",
+        "JURIS_PASSWORD": "$JURIS_PASSWORD"
+      }
+    },
+
+    "_example_openjur": {
+      "_status": "openjur has a public web search; a local MCP wrapper can scrape responsibly",
+      "command": "python3",
+      "args": ["-m", "openjur_mcp"],
+      "env": {}
+    },
+
+    "_example_gesetze_im_internet": {
+      "_status": "public source, no auth needed; could be a thin wrapper around HTTP",
+      "command": "python3",
+      "args": ["-m", "gesetze_mcp"],
+      "env": {}
+    },
+
+    "_example_court_calendar": {
+      "_status": "Gerichtsterminkalender; bundesland-specific",
+      "command": "python3",
+      "args": ["-m", "court_calendar_mcp"],
+      "env": {
+        "BUNDESLAND": "BY"
+      }
+    }
+  },
+
+  "_usage_in_skill": "Reference an MCP server from inside a SKILL.md by saying e.g. 'Use the gesetze_im_internet MCP server to fetch the current text of § X' or 'If a beck_online MCP server is available, verify the citation via tool_call.'. The skill remains usable without MCP (model falls back to verification markers).",
+
+  "_note_on_203": "An MCP server that ships Mandatsdaten to a remote service is itself a Mandatsgeheimnis-Empfänger and needs the same § 203/§ 43e BRAO contracts as any LLM provider. Self-hosted MCP servers are preferable for client work."
+}

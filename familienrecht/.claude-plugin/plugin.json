@@ -1,0 +1,8 @@
+{
+  "name": "familienrecht",
+  "version": "0.1.0",
+  "description": "Familienrecht (Fachanwaltschaft). Ehescheidung §§ 1564 ff. BGB, Zugewinnausgleich §§ 1372 ff. BGB, Unterhalt (Trennungsunterhalt, Ehegattenunterhalt, Kindesunterhalt), Sorgerecht §§ 1626 ff. BGB, Umgangsrecht.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

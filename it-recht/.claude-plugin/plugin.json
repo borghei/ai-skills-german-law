@@ -1,0 +1,8 @@
+{
+  "name": "it-recht",
+  "version": "0.1.0",
+  "description": "IT-Recht (Fachanwaltschaft). IT-Vertragsgestaltung (SaaS, Outsourcing, Werkvertrag/Dienstvertrag), Softwarelizenzrecht, Open Source Compliance, KI-/DSGVO-Verzahnung, Cloud-AVV, EVB-IT.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

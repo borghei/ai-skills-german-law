@@ -1,0 +1,8 @@
+{
+  "name": "steuerrecht",
+  "version": "0.1.0",
+  "description": "Steuerrecht (Fachanwaltschaft). Abgabenordnung AO, Außenprüfung/Betriebsprüfung §§ 193 ff. AO, Einspruchsverfahren §§ 347 ff. AO, Finanzgerichtsverfahren FGO, Selbstanzeige § 371 AO.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "insolvenzrecht",
+  "version": "0.1.0",
+  "description": "Insolvenzrecht und Sanierungsrahmen. Insolvenzantragspflicht § 15a InsO, StaRUG-Restrukturierungsplan, 13-Wochen-Liquiditätsplanung, positive Fortbestehensprognose, Zahlungsunfähigkeit und Überschuldung §§ 17, 19 InsO.",
+  "license": "Apache-2.0 OR MIT",
+  "author": {"name": "Borghei", "url": "https://github.com/borghei"},
+  "homepage": "https://github.com/borghei/AI-Skills-German-Law"
+}

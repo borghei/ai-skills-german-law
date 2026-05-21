@@ -1,6 +1,5 @@
 PyYAML>=6.0
 # eval harness (optional but recommended)
 jsonschema>=4.0
-# docs site (only needed if you build the docs locally; CI uses pip install mkdocs-material)
-mkdocs-material>=9.5
 # no other runtime deps — scripts are intentionally vanilla Python 3.10+
+# (the marketing site under site/ is hand-coded HTML/CSS/JS — no build step)

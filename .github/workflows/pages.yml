@@ -4,8 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "docs/**"
-      - "mkdocs.yml"
+      - "site/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -26,13 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - name: Install MkDocs Material
-        run: pip install mkdocs-material
-      - name: Build site
-        run: mkdocs build --strict
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

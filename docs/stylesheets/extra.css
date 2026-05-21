@@ -1,63 +1,24 @@
-/* Brand accent — gold-on-navy across the site */
-:root {
-  --aisgl-gold: #D4A24C;
-  --aisgl-navy: #10182B;
-  --aisgl-near-black: #0A0E1A;
-}
-
-/* Hero block on the home page */
-.md-typeset .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* Feature grid on the home page */
+.md-typeset .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   gap: 1rem;
-  padding: 2.5rem 1rem;
-  margin: -1rem -1rem 2rem;
-  background: linear-gradient(135deg, var(--aisgl-near-black) 0%, var(--aisgl-navy) 50%, #1A2240 100%);
-  border-radius: 0.4rem;
-  text-align: center;
+  margin: 1.5rem 0;
 }
 
-.md-typeset .hero h1 {
-  color: #fff;
-  margin: 0;
-  font-size: 2.4rem;
-  font-weight: 800;
-  letter-spacing: -0.5px;
+.md-typeset .grid .card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .4rem;
+  padding: 1.2rem;
+  transition: box-shadow .25s;
 }
 
-.md-typeset .hero .tagline {
-  color: #9AA3B8;
-  font-size: 1.15rem;
-  margin: 0;
+.md-typeset .grid .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
 }
 
-.md-typeset .hero .paragraph-sign {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 4rem;
-  color: var(--aisgl-gold);
-  line-height: 1;
-  margin-bottom: 0.5rem;
-}
-
-/* Provider chips */
-.md-typeset .chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  justify-content: center;
-  margin: 1rem 0;
-}
-
-.md-typeset .chip {
-  display: inline-block;
-  padding: 0.35rem 1rem;
-  border: 1.2px solid var(--aisgl-gold);
-  border-radius: 1rem;
-  color: var(--aisgl-gold);
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 1.2px;
+.md-typeset .grid .card h3 {
+  margin-top: 0;
 }
 
 /* Stat counters */
@@ -69,78 +30,24 @@
   margin: 2rem 0;
 }
 
-.md-typeset .stat {
+.md-typeset .stats .stat {
   text-align: center;
-  min-width: 7rem;
 }
 
-.md-typeset .stat .number {
-  font-size: 2.6rem;
-  font-weight: 800;
-  color: var(--aisgl-gold);
-  line-height: 1;
-}
-
-.md-typeset .stat .label {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--md-default-fg-color--light);
-  margin-top: 0.4rem;
-}
-
-/* Card grid */
-.md-typeset .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.md-typeset .grid .card {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.4rem;
-  padding: 1.2rem;
-  transition: box-shadow 0.25s, transform 0.2s;
-}
-
-.md-typeset .grid .card:hover {
-  box-shadow: 0 4px 14px rgba(212, 162, 76, 0.18);
-  transform: translateY(-2px);
-}
-
-.md-typeset .grid .card h3 {
-  margin-top: 0;
-  color: var(--md-primary-fg-color);
-}
-
-.md-typeset .grid .card .anchor {
-  margin-top: 0.6rem;
-  font-size: 0.8rem;
-  font-family: "JetBrains Mono", monospace;
-  color: var(--aisgl-gold);
-}
-
-/* Trust state markers */
-.md-typeset .trust-row {
-  display: grid;
-  grid-template-columns: 6rem 1fr;
-  gap: 1rem;
-  padding: 0.8rem 0;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-}
-
-.md-typeset .trust-row .state {
+.md-typeset .stats .stat .number {
+  font-size: 2.4rem;
   font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
+  color: var(--md-primary-fg-color);
+  line-height: 1.1;
 }
 
-.md-typeset .state-green { color: #2E7D32; }
-.md-typeset .state-amber { color: #C77700; }
-.md-typeset .state-red   { color: #C62828; }
+.md-typeset .stats .stat .label {
+  font-size: .85rem;
+  opacity: .7;
+}
 
-/* Override Material accent to gold on hover for primary links */
-.md-typeset a:not(.md-button) {
-  color: var(--md-accent-fg-color);
+/* Skill table tweaks */
+.md-typeset table.skill-table th:first-child,
+.md-typeset table.skill-table td:first-child {
+  white-space: nowrap;
 }

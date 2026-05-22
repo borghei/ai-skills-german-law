@@ -40,7 +40,7 @@ A `[Modellwissen]`-Halluzination in einem Kündigungsschreiben ist kein Bug. Sie
 
 ## The fix
 
-A focused, **provider-agnostic** library: 23 areas, 28 skills, every statute citation linked to its authoritative source, every case-law citation explicitly marked verified or `[unverifiziert, prüfen]`. A built-in evaluation harness checks every skill against fact patterns. A dated [verification log](VERIFICATION_LOG.md) shows exactly what was checked, when, against which source.
+A focused, **provider-agnostic** library: 48 areas, 103 skills, every statute citation linked to its authoritative source, every case-law citation explicitly marked verified or `[unverifiziert, prüfen]`. A built-in evaluation harness checks every skill against fact patterns. A dated [verification log](VERIFICATION_LOG.md) plus the [per-plugin verification status](VERIFICATION_STATUS.md) show exactly what was checked, when, against which source.
 
 It is **not legal advice**, **not a Beck-Online substitute**, and **not for Mandatsdaten without a § 203 StGB-compliant gateway**. It is a tested drafting aid with an honest paper trail.
 
@@ -188,7 +188,7 @@ We are unsentimental about trust. Here is what is verified today, what is in act
 
 ### Production-grade today
 
-- **Repo structure plus CI.** Every plugin manifest validates. CI runs `validate.py` on every push to catch structural drift. Locally, `python scripts/eval.py` adds 370+ fact-pattern assertions across 28 skills (28/28 passing).
+- **Repo structure plus CI.** Every plugin manifest validates. CI runs `validate.py` on every push to catch structural drift. Locally, `python scripts/eval.py` runs 1,758 fact-pattern assertions across 103 skills (103/103 passing).
 - **Statute citations.** Every `§ X` links to the **authoritative public source**, [gesetze-im-internet.de](https://www.gesetze-im-internet.de) and [EUR-Lex](https://eur-lex.europa.eu). One click, verifiable.
 - **Methodology.** Gutachtenstil, Anspruchsgrundlagen-Reihenfolge, BGH/Beck-Zitierweise, no Präjudizienbindungs-Argumente, textbook-correct conventions, documented in [`CONVENTIONS.md`](./CONVENTIONS.md) and enforced by the reviewer sub-agent.
 - **Compliance scaffolding.** PII redaction ([`scripts/pii_redact.py`](./scripts/pii_redact.py)), gateway setup guide ([`references/gateway-setup.md`](./references/gateway-setup.md)), § 203 / DSGVO / KI-VO checklist ([`references/compliance-checklist.md`](./references/compliance-checklist.md)).
@@ -225,7 +225,7 @@ The full audit trail lives in [`VERIFICATION_LOG.md`](./VERIFICATION_LOG.md), la
 ```bash
 # Validate the repo structure
 python scripts/validate.py
-# OK, 13 areas validated.
+# OK, 48 areas validated.
 
 # Run the eval suite (structural smoke check)
 python scripts/eval.py
@@ -304,7 +304,7 @@ Dual-licensed: **Apache-2.0** ([LICENSE-APACHE](./LICENSE-APACHE)) **OR** **MIT*
 ---
 
 <p align="center">
-  <strong>23 areas · 28 skills · 3 LLM providers · Researcher then Drafter then Reviewer · DSGVO / KI-VO / NIS2 / HinSchG / LkSG / DORA / DSA / CSRD scaffolding</strong><br>
+  <strong>48 areas · 103 skills · 3 LLM providers · Researcher then Drafter then Reviewer · DSGVO / KI-VO / NIS2 / HinSchG / LkSG / DORA / DSA / CSRD scaffolding</strong><br>
   Verified <strong>2026-05-21</strong> · <a href="https://borghei.me">borghei.me</a>
 </p>
 

@@ -8,7 +8,7 @@ Get from zero to a working German legal AI skill in 60 seconds.
 # Add the marketplace
 /plugin marketplace add borghei/AI-Skills-German-Law
 
-# Install the area you need (replace with any of the 23 areas)
+# Install the area you need (replace with any of the 48 areas)
 /plugin install arbeitsrecht
 
 # Use it
@@ -55,7 +55,7 @@ Open any `SKILL.md` in the repo, copy the body (everything below the frontmatter
 
 ## Pick an area
 
-23 areas grouped by buyer persona:
+48 areas grouped by buyer persona (full catalog: [borghei.github.io/AI-Skills-German-Law/SKILLS](https://borghei.github.io/AI-Skills-German-Law/SKILLS/)):
 
 **German legal practice** (everyday Kanzlei work):
 `arbeitsrecht` · `datenschutzrecht` · `vertragsrecht` · `mietrecht` · `gesellschaftsrecht` · `strafrecht` · `insolvenzrecht` · `prozessrecht` · `erbrecht` · `familienrecht` · `betreuungsrecht`
@@ -65,6 +65,15 @@ Open any `SKILL.md` in the repo, copy the body (everything below the frontmatter
 
 **EU / cross-cutting compliance** (every European company touches one of these):
 `ki-vo-compliance` · `nis2` · `hinweisgeberschutz` · `lieferkettengesetz` · `dora` · `dsa-dma` · `csrd`
+
+**Substantive general law (expanded)**:
+`europarecht` · `verfassungsrecht` · `sozialrecht` · `handelsrecht` · `medizinrecht` · `versicherungsrecht` · `baurecht` · `verkehrsrecht` · `urheber-medienrecht` · `sportrecht` · `migrationsrecht` · `agrarrecht`
+
+**Regulated industries & cross-cutting (expanded)**:
+`vergaberecht` · `umweltrecht` · `energierecht` · `aussenwirtschaft-zoll-sanktionen` · `geldwaesche-aml-kyc` · `transportrecht` · `produktrecht` · `ki-governance`
+
+**Specialty & IP (expanded)**:
+`wettbewerbsrecht` · `kartellrecht` · `kapitalmarktrecht` · `patentrecht` · `berufsrecht-anwaltschaft`
 
 ## Before any real Mandat
 

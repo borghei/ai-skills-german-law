@@ -7,10 +7,10 @@
 
 <p align="center">
   <a href="https://github.com/borghei/AI-Skills-German-Law/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/borghei/AI-Skills-German-Law/validate.yml?branch=main&label=CI&logo=github" alt="CI Status"></a>
-  <img src="https://img.shields.io/badge/Areas-23-brightgreen.svg" alt="23 Areas">
-  <img src="https://img.shields.io/badge/Skills-28-success.svg" alt="28 Skills">
+  <img src="https://img.shields.io/badge/Areas-48-brightgreen.svg" alt="48 Areas">
+  <img src="https://img.shields.io/badge/Skills-103-success.svg" alt="103 Skills">
   <img src="https://img.shields.io/badge/Providers-Claude_%7C_Gemini_%7C_GPT-purple.svg" alt="Providers">
-  <img src="https://img.shields.io/badge/Last_verified-2026--05--21-blue.svg" alt="Last verified">
+  <img src="https://img.shields.io/badge/Last_verified-2026--05--22-blue.svg" alt="Last verified">
   <img src="https://img.shields.io/badge/Compliance-DSGVO_%7C_KI--VO_%7C_NIS2_%7C_HinSchG_%7C_LkSG_%7C_DORA_%7C_DSA_%7C_CSRD-red.svg" alt="Compliance">
   <img src="https://img.shields.io/github/stars/borghei/AI-Skills-German-Law?style=social" alt="GitHub Stars">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0_OR_MIT-yellow.svg" alt="License"></a>
